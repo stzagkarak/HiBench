@@ -225,5 +225,20 @@
       </activation>
     </profile>
 
+    <!--new-->
+    <profile>
+      <id>spark3.5.0</id>
+      <properties>
+        <spark.version>3.5.0</spark.version>
+        <spark.bin.version>3.5</spark.bin.version>
+      </properties>
+      <activation>
+        <property>
+          <name>spark</name>
+          <value>3.5</value>
+        </property>
+      </activation>
+    </profile>
+
   </profiles>
 </project>
